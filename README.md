@@ -1,5 +1,5 @@
 
-
+[![Build Status](https://barpel.visualstudio.com/Space%20Game%20-%20web%20-%20Pipeline/_apis/build/status/bpelikan.mslearn-tailspin-spacegame-web?branchName=master)](https://barpel.visualstudio.com/Space%20Game%20-%20web%20-%20Pipeline/_build/latest?definitionId=1&branchName=master)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bd5e2ebcf3ced3bd24d276f436df4e2cb5c5d4a8&metric=alert_status)](https://sonarcloud.io/dashboard?id=bd5e2ebcf3ced3bd24d276f436df4e2cb5c5d4a8)
 
 
