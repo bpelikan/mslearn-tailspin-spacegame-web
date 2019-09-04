@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+
 using System.IO;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
@@ -18,6 +19,7 @@ namespace Tests
         {
             using (Stream scoresData = typeof(IDocumentDBRepository<Score>)
                 .Assembly
+
                 .GetManifestResourceStream("Tailspin.SpaceGame.Web.SampleData.scores.json"))
             {
                 _scoreRepository = new LocalDocumentDBRepository<Score>(scoresData);
@@ -43,6 +45,7 @@ namespace Tests
                 queryPredicate, // the predicate defined above
                 score => 1, // we don't care about the order
                 PAGE,
+
                 MAX_RESULTS
             );
             IEnumerable<Score> scores = scoresTask.Result;
